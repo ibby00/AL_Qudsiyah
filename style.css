@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3dvh;
+    background-color: #f4f0ec ;
+    /* overflow: hidden; */
+    p{
+        margin: 0;
+        font-size: 1rem;
+        color: black;
+    }
+    img{
+        height: 2dvh;
+        width: 2.5dvh;
+    }
+}
+.logo img{
+    height: 21dvh;
+    width: 22dvh;
+    border: solid 1px;
+    /* width: 100%;
+    height: auto; */
+}
+.navbar_box2{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow: hidden; */
+    
+    .search_box{
+        border: solid 1px;
+        height: 3dvh;
+        width: 175px;
+        border-radius: 5px;
+        box-shadow: black 2px 2px;
+    }
+    input{
+        border: none;
+        border-radius: 5px;
+        /* padding: 0.5rem; */
+        height: 3dvh;
+        width: 150px;
+    }
+    a{
+        color:black;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.track_order{
+    height: 4dvh;
+    width: 18dvh;
+    border: solid 1px slategray;
+    border-radius: 5px; 
+    text-align: center;
+    padding-top: 1rem ;
+    box-shadow: black 2px 2px;
+}
+
+.track_order:hover, .cart:hover, .login:hover{
+    background-color: #d3d3d3;
+}
+
+.cart{
+    height: 4dvh;
+    width: 10dvh;
+    border: solid 1px slategray;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1rem ;
+    box-shadow: black 2px 2px;
+}
+.login{
+    height: 4dvh;
+    width: 10dvh;
+    border: solid 1px slategray;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 1rem ;
+    box-shadow: black 2px 2px;
+}   
+.nav2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3dvh;
+    background-color: #f4f0ec ;
+    a{
+            color: black;
+            text-decoration: none;
+    }
+    a:hover{
+            text-align: center;
+            background-color: #d3d3d3;
+            width: 18dvh;
+            border-radius: 2dvh;
+            }
+    }
+.banner{
+    padding-top: 0.3%;
+    img{
+        width: 100%;
+        height: auto;
+        }
+    }
+ 
